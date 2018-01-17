@@ -66,8 +66,9 @@
 
 /* components */
 .avatar {
-  height: 50px;
-	border-radius: 50%;
+  height: 150px;
+	border-radius: 1%;
+  text-align: center;
 }
 
 .btn {
@@ -135,10 +136,16 @@
   color: white;
 }
 
+.url_style {
+  font-size:10px;
+  margin:1px;
+  max-width:90%;
+}
+
 .result-item {
   padding: 20px 0;
 	margin: 15px;
-	padding: 25px;
+	padding: 5px 25px;
 	border: 1px solid #eee;
 	flex-basis: 400px;
 	max-width: 400px;
@@ -212,7 +219,7 @@
 }
 
 /* media queries */
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1400px) {
   .result-item {
     flex-basis: 350px;
     max-width: 350px;
@@ -221,7 +228,7 @@
   .result-card-header {
     flex-direction: column;
   }
-  
+
   .result-card-header > div {
     justify-content: center;
     margin-top: 5px;
@@ -251,7 +258,7 @@
   .results-container {
     width: 100%;
   }
-  
+
   .data-search-container {
     margin-top: 20px;
     width: calc(100% - 280px);

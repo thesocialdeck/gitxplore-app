@@ -35,9 +35,9 @@ class App extends Component {
 		return (
 			<section className="container">
 				<ReactiveBase
-					app="gitxplore-app"
-					credentials="FoNt3qFgh:4130b46e-e4d0-4e19-ba8d-dbf85bcf2eb7"
-					type="gitxplore-latest"
+					app="asfas"
+					credentials="pYkzCEJSR:bebd7486-1dae-4efb-b419-00d0d7472885"
+					type="case_study"
 					theme={theme}
 				>
 					<div className="flex row-reverse app-container">
@@ -46,8 +46,8 @@ class App extends Component {
 							<DataSearch
 								componentId="repo"
 								filterLabel="Search"
-								dataField={['name', 'description', 'name.raw', 'fullname', 'owner', 'topics']}
-								placeholder="Search Repos"
+								dataField={['Case_study', 'Description', 'Case_study.raw', 'Type']}
+								placeholder="Search EDDIE"
 								iconPosition="left"
 								autosuggest={false}
 								URLParams
